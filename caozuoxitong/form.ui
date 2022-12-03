@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>淘汰策略</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border:0px;
+background-color:white;
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>30</y>
+     <width>451</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">border-radius: 25px;
+font-family:宋体;
+font-size:75px;
+background-color:rgb(160,160,160);
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>F I F O</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">border-radius: 25px;
+font-family:宋体;
+font-size:75px;
+background-color:rgb(160,160,160);
+color:white;</string>
+      </property>
+      <property name="text">
+       <string> L R U </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">border-radius: 25px;
+font-family:宋体;
+font-size:75px;
+background-color:rgb(160,160,160);
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>O P T</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
